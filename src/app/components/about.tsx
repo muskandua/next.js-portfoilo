@@ -1,6 +1,7 @@
 import Image from 'next/image'
 import React from 'react'
 
+
 const About = () => {
   return (
     <div id="about">
@@ -10,7 +11,9 @@ const About = () => {
       <Image
         className="object-cover object-center rounded mx-auto w-[400px] h-[400px]"
         alt="hero"
+        // eslint-disable-next-line @typescript-eslint/no-require-imports
         src={require('../../../public/assets/picture/my picture.jpeg')}
+        
       />
     </div>
     <div className="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">

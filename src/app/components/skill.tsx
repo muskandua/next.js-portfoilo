@@ -1,8 +1,7 @@
 import React from 'react'
 import { BsBootstrap } from 'react-icons/bs'
 import { FaNodeJs } from 'react-icons/fa'
-import { GrHtml5, GrJs } from 'react-icons/gr'
-import { ImHtmlFive2 } from 'react-icons/im'
+import { GrHtml5} from 'react-icons/gr'
 import { SiCss3, SiHtml5 } from 'react-icons/si'
 import { TbBrandNextjs } from 'react-icons/tb'
 

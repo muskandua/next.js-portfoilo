@@ -2,7 +2,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react'
 import { DiGithub } from 'react-icons/di';
-import { PiFacebookLogoBold, PiGithubLogoFill } from 'react-icons/pi';
+import { PiFacebookLogoBold } from 'react-icons/pi';
 import { TiSocialLinkedinCircular } from 'react-icons/ti';
 
 const footer = () => {
@@ -12,6 +12,7 @@ const footer = () => {
     <div className="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col">
       <a className="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
       <Image
+      // eslint-disable-next-line @typescript-eslint/no-require-imports
             src={require("../../../public/assets/picture/my logo image.png")} 
             alt="My Protfolio"
             width={80} 

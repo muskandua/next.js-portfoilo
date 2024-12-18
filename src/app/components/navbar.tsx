@@ -1,8 +1,6 @@
 import Link from 'next/link'
 import React from 'react'
 import Image from 'next/image'; 
-import { BiSolidDownload  } from 'react-icons/bi';
-import { AiOutlineCloudDownload } from 'react-icons/ai';
 import { IoMdContact } from 'react-icons/io';
 
 const navbar = () => {
